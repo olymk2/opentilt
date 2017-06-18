@@ -275,7 +275,7 @@ void setup() {
 
     digitalWrite(pin_power, HIGH);
 
-    Entropy.Initialize();
+    Entropy.initialize();
 
     motion.init();
 
